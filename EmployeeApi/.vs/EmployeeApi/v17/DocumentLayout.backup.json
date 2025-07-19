@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|c:\\users\\pc doctor\\source\\repos\\employeeapi\\employeeapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|solutionrelative:employeeapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|c:\\users\\pc doctor\\source\\repos\\employeeapi\\employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|solutionrelative:employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48533596-BCF8-4055-A14F-690D23A22FC6}|Data Access Layer\\Data Logic Layer.csproj|c:\\users\\pc doctor\\source\\repos\\employeeapi\\data access layer\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48533596-BCF8-4055-A14F-690D23A22FC6}|Data Access Layer\\Data Logic Layer.csproj|solutionrelative:data access layer\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|c:\\users\\pc doctor\\source\\repos\\employeeapi\\employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|solutionrelative:employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|c:\\users\\pc doctor\\source\\repos\\employeeapi\\employeeapi\\heplers\\serviceapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31C826-0F77-489A-98AD-B83A61F9B69E}|EmployeeApi\\EmployeeApi.csproj|solutionrelative:employeeapi\\heplers\\serviceapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\Data Access Layer\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "Data Access Layer\\Entity\\Employee.cs",
+              "ToolTip": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\Data Access Layer\\Entity\\Employee.cs",
+              "RelativeToolTip": "Data Access Layer\\Entity\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T13:53:51.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:52:07.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\appsettings.json",
+              "RelativeToolTip": "EmployeeApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T11:43:51.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeApi\\Program.cs",
+              "ToolTip": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Program.cs",
+              "RelativeToolTip": "EmployeeApi\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:40:17.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceApplication.cs",
+              "DocumentMoniker": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Heplers\\ServiceApplication.cs",
+              "RelativeDocumentMoniker": "EmployeeApi\\Heplers\\ServiceApplication.cs",
+              "ToolTip": "C:\\Users\\PC DOCTOR\\source\\repos\\EmployeeApi\\EmployeeApi\\Heplers\\ServiceApplication.cs",
+              "RelativeToolTip": "EmployeeApi\\Heplers\\ServiceApplication.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:40:01.711Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

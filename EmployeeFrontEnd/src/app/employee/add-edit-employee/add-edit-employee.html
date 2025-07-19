@@ -1,0 +1,42 @@
+<div class="container my-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h3>{{ id ? 'Edit' : 'Add' }} Employee</h3>
+  </div>
+      <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()" novalidate>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input id="firstName" formControlName="firstName" class="form-control" [class.is-invalid]="submitted && employeeForm.controls['firstName'].invalid" />
+          <div *ngIf="submitted && employeeForm.controls['firstName'].invalid" class="invalid-feedback">
+            First Name is required.
+          </div>
+        </div>
+      <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input id="lastName" formControlName="lastName" class="form-control" [class.is-invalid]="submitted && employeeForm.controls['lastName'].invalid" />
+          <div *ngIf="submitted && employeeForm.controls['lastName'].invalid" class="invalid-feedback">
+            Last Name is required.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" formControlName="email" type="email" class="form-control" [class.is-invalid]="submitted && employeeForm.controls['email'].invalid" />
+            <div *ngIf="submitted && employeeForm.controls['email'].invalid" class="invalid-feedback">
+              <div *ngIf="employeeForm.controls['email'].errors?.['required']">Email is required.</div>
+              <div *ngIf="employeeForm.controls['email'].errors?.['email']">Invalid email format.</div>
+            </div>
+        </div>
+        <div class="mb-3">
+          <label for="position" class="form-label">Position</label>
+          <input id="position" formControlName="position" class="form-control" [class.is-invalid]="submitted && employeeForm.controls['position'].invalid" />
+          <div *ngIf="submitted && employeeForm.controls['position'].invalid" class="invalid-feedback">
+            Position is required.
+          </div>
+        </div>
+
+      <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-primary me-2">Save</button>
+        <button class="btn btn-secondary" routerLink="/employee">Back</button>
+      </div>  
+        
+      </form>
+</div>

@@ -1,0 +1,14 @@
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\bin\Debug\net8.0\Data Logic Layer.deps.json
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\bin\Debug\net8.0\Data Logic Layer.runtimeconfig.json
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\bin\Debug\net8.0\Data Logic Layer.dll
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\bin\Debug\net8.0\Data Logic Layer.pdb
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.csproj.AssemblyReference.cache
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.AssemblyInfoInputs.cache
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.AssemblyInfo.cs
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.csproj.CoreCompileInputs.cache
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.dll
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\refint\Data Logic Layer.dll
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.pdb
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\Data Logic Layer.genruntimeconfig.cache
+C:\Users\PC DOCTOR\source\repos\EmployeeApi\Data Access Layer\obj\Debug\net8.0\ref\Data Logic Layer.dll

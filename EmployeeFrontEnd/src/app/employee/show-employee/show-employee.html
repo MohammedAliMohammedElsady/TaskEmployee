@@ -1,0 +1,54 @@
+<div class="container  my-4">
+
+  <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="filter-wrapper w-20">
+          <input matInput class="form-control" (keyup)="applyFilter($event)" placeholder="search...">
+        </div>
+
+        <div>
+          <button class="btn btn-success" (click)="addEmployee()">Add Employee</button>
+        </div>
+</div>
+    
+    <div class="table-responsive">
+            <table mat-table [dataSource]="employees" class="mat-elevation-z8" style="width: 100%;">
+              <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef> Emp ID </th>
+              <td mat-cell *matCellDef="let e"> {{ e.id }} </td>
+              </ng-container>
+              <ng-container matColumnDef="firstName">
+                <th mat-header-cell *matHeaderCellDef> First Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="lastName">
+                <th mat-header-cell *matHeaderCellDef> Last Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+              </ng-container>
+              
+              <ng-container matColumnDef="email">
+                <th mat-header-cell *matHeaderCellDef> Email </th>
+                <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+              </ng-container>
+              
+              <ng-container matColumnDef="position">
+                <th mat-header-cell *matHeaderCellDef> Position </th>
+                <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+              </ng-container>
+
+            <ng-container matColumnDef="actions">
+              <th mat-header-cell *matHeaderCellDef> Actions </th>
+              <td mat-cell *matCellDef="let e">
+                <button class="btn btn-sm btn-primary me-2" (click)="editEmployee(e.id)">Edit</button> 
+                <button class="btn btn-sm btn-danger" (click)="deleteEmployee(e.id)">Delete</button>
+              </td>
+              </ng-container>
+              
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+            </table>
+    </div>
+</div>
+
+

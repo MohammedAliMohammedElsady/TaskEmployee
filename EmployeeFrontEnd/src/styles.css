@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+body {
+  background-color: #f4f4f4 !important; 
+  margin: 0 !important;
+  font-family: Arial, sans-serif !important;
+}
+::ng-deep .snackbar-success {
+  background-color: #4caf50 !important; 
+  color: white !important;
+  font-weight: bold;
+}
+::ng-deep .snackbar-error {
+  background-color: #f44336 !important; 
+  color: white !important;
+}
+::ng-deep .snackbar-warning {
+  background-color: #ff9800 !important; 
+  color: black !important;
+}
