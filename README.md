@@ -25,13 +25,16 @@ Ensure you have the following installed:
 ```json
 "DefaultConnection": "Server=localhost;Database=EmployeeDb;Integrated Security=True;TrustServerCertificate=True;"
 
+```
+
 - **Sql Server Authentication** (default on local machines):
 
 ```json
 "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DATABASE;User Id=YOUR_USERNAME;Password=YOUR_PASSWORD;TrustServerCertificate=True;"
 
+```
 
-## 🚀 Run Application
+### 🚀 Run Application
 
 - Run the application using the HTTP launch profile.
 - Application Run in http://localhost:5242
@@ -68,12 +71,12 @@ npm install -g @angular/cli
 
 npm install
 
+```
+
 ## 🚀 Run Application
 
-```command prompt
-# Run Application Front End Url http://localhost:4200/
 
-After Run This Command
+- Run This Command --> ng serve
+- Application Run in http://localhost:4200/
 
-ng serve
 
